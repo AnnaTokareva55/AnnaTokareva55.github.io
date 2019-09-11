@@ -1526,6 +1526,7 @@
 		transform-origin: center;
 		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
 					width 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+					background-color 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               		opacity 0.55s ease;
 	}
 
@@ -1541,6 +1542,7 @@
 		opacity: 1;
 		transform: rotate(45deg);
 		width: 44px;
+		background-color: #ffffff;
 	}
 
 	.menu-mobile-check:checked + .menu-mobile span:nth-child(2) {
@@ -1552,6 +1554,7 @@
   		opacity: 1;
   		transform: rotate(-45deg);
   		width: 44px;
+  		background-color: #ffffff;
 	}
 
 
@@ -1565,7 +1568,7 @@
 
 	.main-menu-list {
 		visibility: hidden;
-		padding: 10% 0 10% 0;
+		padding: 5% 0 5% 0;
 		box-sizing: border-box;
 		display: flex;
 		flex-direction: column;
@@ -1575,7 +1578,7 @@
 		top: 79px;
 		left: 0;
 		width: 100%;
-		height: 100%;
+		height: 90%;
 		transition: visibility 0.3s linear;
 	}
 
